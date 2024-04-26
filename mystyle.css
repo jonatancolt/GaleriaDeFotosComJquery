@@ -1,0 +1,22 @@
+body {
+    background-color: rgba(13, 106, 134, 1)
+}
+.container {
+   display: inline-block;
+   font-size: 20px;
+}
+li:hover{
+background-color: rgba(0, 0, 0, 0.3);
+    color: aliceblue;
+cursor: pointer;}
+.btn {
+    padding: 5px 5px;
+    background:#7d2ae8;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: 0 0 40px #7d2ae8;
+    font-size: 32px;
+    color: black;
+    cursor: pointer;
+}
