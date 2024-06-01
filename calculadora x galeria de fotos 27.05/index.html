@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>calculadora x galeria</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <section class="slider-container">
+      <div class="slider-images">
+         <div class="slider-img">
+            <img src="images/foto4.jpg " alt="4">
+         </div>
+
+         <div class="slider-img">
+            <img src="images/foto2.jpg" alt="2">
+         </div>
+
+         <div class="slider-img">
+            <img src="images/foto3.jpg" alt="3">
+         </div>
+
+         <div class="slider-img active">
+            <img src="images/foto1.jpg" alt="1">
+         </div>
+
+         <div class="slider-img">
+            <img src="images/foto5.jpg" alt="5">
+         </div>
+
+         <div class="slider-img">
+            <img src="images/foto6.jpg" alt="6">
+         </div>
+
+         <div class="slider-img">
+            <img src="images/foto7.jpg" alt="7">
+         </div>
+      </div>
+
+   </section>
+   <script src="js/jQuery.js"></script>
+   <script>
+      jQuery(document).ready(function ($) {
+         $('.slider-img').on('click', function(){
+            $('.slider-img').removeClass('active');
+            $(this).addClass('active');
+         })
+      });
+   </script>
+</body>
+
+</html>

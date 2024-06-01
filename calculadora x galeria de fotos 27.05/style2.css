@@ -1,0 +1,64 @@
+#btn1, #btn2 {
+   text-align: center;
+   align-items: center;
+  
+}
+
+.container {
+    text-align: center;
+}
+
+button{
+    letter-spacing: 15px;
+    font-family: arial;
+    font-size: 40px;
+background: gray;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 80px;
+    border: none;
+    margin: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    color: turquoise;
+   
+
+}
+
+button:hover{
+ background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+
+.hello{
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 15px;
+    color: blueviolet;
+    text-shadow: 2px 2px 4px #000000;
+    text-transform: uppercase;
+    width: 100%;
+    text-transform: uppercase;
+    
+    line-height: 2em;
+    outline: none;
+}
+
+.face, .linkedin, .insta {
+    font-size: 30px;
+   
+
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.fundo {
+    background-image: url('images/back3.jpg');
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}

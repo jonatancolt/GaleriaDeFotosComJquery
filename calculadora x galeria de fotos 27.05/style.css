@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=jost:wght@400;700&display=swap");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "jost", sans-serif;
+}
+
+
+.slider-container
+{
+width: 100%;
+height: 100vh;
+background-image: url('images/background.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.slider-images{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+.slider-images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.slider-img{
+    width: 110px;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.7s ease;
+   
+}
+
+.slider-images .slider-img:first-child, .slider-images .slider-img:last-child{
+    height: 480px;
+}
+.slider-images .slider-img:nth-child(2), .slider-images .slider-img:nth-child(6){
+    height: 560px;
+}
+
+.slider-images .slider-img:nth-child(3), .slider-images .slider-img:nth-child(4), .slider-images .slider-img:nth-child(5)  {
+    height: 665px;
+}
+
+.slider-img.active{
+    width: 766px !important;
+    height: 750px !important;
+}
+
+.slider-img.active{
+    display: none;
+}
+
+.slider-img.active{
+    display: block;
+}
